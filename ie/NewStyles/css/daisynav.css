@@ -1,0 +1,396 @@
+.menu-toggle-button {
+    cursor: pointer;
+    float: right;
+    margin:24px 10px 0  0;
+   /* background: #02a451 url(../images/toggle-m-new.png) no-repeat center;*/
+}
+.menu-toggle-button {
+    display: none;
+}
+.menu-toggle-button.active {
+}
+ul.menu-list {
+    list-style: outside none none;
+    margin: 0px 0 0 0 ;
+    padding: 0;
+    position: relative;
+}
+ul.menu-list li {
+    float: left;
+    position: relative;
+}
+ul.menu-list li a {
+    display: inline-block;
+}
+ul.menu-list li a {
+    display: block;
+}
+ul.menu-list ul {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 4px 2px #d7d7d7;
+    display: none;
+    left: 0;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 700;
+}
+ul.menu-list ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ul.menu-list ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 700;
+}
+ul.menu-list li:hover > ul {
+    display: inline-block;
+}
+ul.menu-list li:hover > ul {
+}
+ul.menu-list li.has-submenu > a > span.menu-expand {
+    display: none;
+    float: right;
+    font-size: 0.6em;
+    line-height: 2.2em;
+    padding-left: 10px;
+}
+ul.menu-list li.has-submenu > a > span.menu-expand {
+}
+ul.menu-list > li.has-submenu > a > span.menu-expand {
+}
+ul.menu-list > li.has-submenu > a > span.menu-expand::after {
+    content: "▼";
+}
+ul.menu-list li li.has-submenu > a > span.menu-expand {
+}
+ul.menu-list li li.has-submenu > a > span.menu-expand::after {
+    content: "►";
+}
+ul.menu-list li a {
+
+    text-decoration: none;
+}
+ul.menu-list li > a {
+}
+ul.menu-list li li > a {
+    width: 230px;
+}
+ul.menu-list li li li > a {
+}
+ul.menu-list > li {
+    margin: 0 0 0 1px;
+}
+ul.menu-list > li > a {
+    text-align: center !important;
+	text-transform:uppercase !important;
+	font-weight:400 !important;
+	font-size:10px !important;
+	line-height:15px !important;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+ul.menu-list > li > a.icons_hdr{
+margin-top:5px;
+}
+ul.menu-list > li:hover {
+}
+
+ul.menu-list > li > ul {
+}
+ul.menu-list > li > ul > li {
+    border-bottom: 1px solid #dbdbdc;
+}
+ul.menu-list > li > ul > li > a {
+    color: #767676;
+    font-size: 13px;
+    padding: 10px;
+}
+ul.menu-list > li > ul > li:hover {
+    background: none repeat scroll 0 0 #f0f0f0;
+}
+ul.menu-list > li > ul > li:hover > a {
+}
+ul.menu-list > li > ul > li > a:hover {
+    color: #60abcb;
+}
+ul.menu-list > li > ul > li > ul {
+    border: 1px solid #777;
+}
+ul.menu-list > li > ul > li > ul > li {
+    background: none repeat scroll 0 0 #e7e7e7;
+}
+ul.menu-list > li > ul > li > ul > li > a {
+}
+ul.menu-list > li > ul > li > ul > li:hover {
+    background: none repeat scroll 0 0 #ddd;
+}
+ul.menu-list > li > ul > li > ul > li:hover > a {
+}
+ul.menu-list > li > ul > li > ul > li > a:hover {
+}
+@media screen and (max-width:850px) {
+.menu-toggle-button {
+    display: block;
+}
+.show-for-devices {
+    display: block !important;
+}
+ul.menu-list {
+    display: none;
+}
+ul.menu-list li {
+    clear: both;
+    float: none;
+}
+ul.menu-list ul {
+    display: none;
+    position: relative;
+}
+ul.menu-list ul li {
+}
+ul.menu-list ul ul {
+    left: 0;
+    position: relative;
+    top: 100%;
+}
+ul.menu-list li:hover > ul {
+    display: none;
+}
+ul.menu-list li:hover > ul {
+}
+ul.menu-list li.has-submenu > a > span.menu-expand {
+    display: block;
+    font-size: 0.6em;
+    line-height: 1em;
+    padding: 0.8em;
+    position: absolute;
+    right: 0;
+    top: 1em;
+    z-index: 700;
+}
+ul.menu-list > li.has-submenu > a > span.menu-expand {
+}
+ul.menu-list li li.has-submenu > a > span.menu-expand {
+}
+ul.menu-list li li.has-submenu > a > span.menu-expand::after {
+    content: "▼";
+}
+ul.menu-list li a {
+    color: #333;
+    position: relative;
+}
+ul.menu-list li > a {
+}
+ul.menu-list li li > a {
+    width: auto;
+}
+ul.menu-list li li li > a {
+}
+ul.menu-list > li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #000;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    margin: 0;
+}
+ul.menu-list > li > a {
+}
+ul.menu-list > li:hover {
+    background: none repeat scroll 0 0 #000;
+}
+ul.menu-list > li:hover > a {
+    color: #fff;
+}
+ul.menu-list > li > a:hover {
+}
+ul.menu-list > li > ul {
+    border: medium none;
+}
+ul.menu-list > li > ul > li {
+    padding-left: 5px;
+}
+ul.menu-list > li > ul > li > a {
+}
+ul.menu-list > li > ul > li:hover {
+    background: none repeat scroll 0 0 #ddd;
+}
+ul.menu-list > li > ul > li:hover > a {
+}
+ul.menu-list > li > ul > li > a:hover {
+}
+ul.menu-list > li > ul > li > ul {
+    border: medium none;
+}
+ul.menu-list > li > ul > li > ul > li {
+    padding-left: 5px;
+}
+ul.menu-list > li > ul > li > ul > li > a {
+}
+ul.menu-list > li > ul > li > ul > li:hover {
+    background: none repeat scroll 0 0 #ddd;
+}
+ul.menu-list > li > ul > li > ul > li:hover > a {
+}
+ul.menu-list > li > ul > li > ul > li > a:hover {
+}
+ul.menu-list {
+    position: absolute;
+    top: 60px;
+    width: 200px; left:-40px;
+    z-index: 9999; box-shadow:0 0 5px #ccc;
+}
+ul.menu-list > li {
+    background: #f6f6f6;
+    border-bottom: 1px solid #ccc;
+    float:left;
+    width:100%;
+}
+ul.menu-list li a {
+    color: #444;
+    font-size: 14px;
+    line-height: normal;
+    padding: 6px;
+    text-align: left;
+}
+ul.menu-list > li > ul > li > a:hover {
+    color: #fff;
+}
+ul.menu-list > li:hover {
+    background: none repeat scroll 0 0 #02a451;
+}
+ul.menu-list > li:hover > a {
+    background: none repeat scroll 0 0 #02a451;
+    color: #000;
+}
+
+ul.menu-list li.has-submenu > a > span.menu-expand {
+    font-size: 0.7em;
+}
+ul.menu-list > li > ul > li {
+    background: none repeat scroll 0 0 #4b4b4b;
+    border-bottom: 1px solid #595858;
+}
+ul.menu-list > li > ul > li:last-child {
+    border-bottom: medium none;
+}
+ul.menu-list > li > ul > li:hover {
+    background: none repeat scroll 0 0 #5e5e5e;
+}
+ul.menu-list ul {
+    box-shadow: none;
+}
+ul.menu-list > li > ul > li > a {
+    color: #fff;
+}
+ul.menu-list li a{ width:100%; float: left;}
+ul.menu-list > li > a { font-size:12px !important;}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*ul.menu-list {
+      right: 1.9%;
+    position: absolute;
+    top: 55px;
+    width: 98%;
+    z-index: 9999;
+}
+ul.menu-list > li {
+    background: none repeat scroll 0 0 #4c4c4c;
+    border-bottom: 1px solid #5e5e5e;
+}
+ul.menu-list li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    padding: 10px;
+    text-align: left;
+}*/
+ul.menu-list > li > ul > li > a:hover {
+    color: #fff;
+}
+ul.menu-list > li:hover {
+    
+}
+ul.menu-list li.has-submenu > a > span.menu-expand {
+    font-size: 0.7em;
+}
+ul.menu-list > li > ul > li {
+    background: none repeat scroll 0 0 #4b4b4b;
+    border-bottom: 1px solid #595858;
+}
+ul.menu-list > li > ul > li:last-child {
+    border-bottom: medium none;
+}
+ul.menu-list > li > ul > li:hover {
+    background: none repeat scroll 0 0 #5e5e5e;
+}
+ul.menu-list ul {
+    box-shadow: none;
+}
+ul.menu-list > li > ul > li > a {
+    color: #fff;
+}
+/*ul.menu-list > li:hover > a {
+    background: none repeat scroll 0 0 #373636;
+    color: #cca837;
+}*/
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+/*ul.menu-list {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    z-index: 9999;
+	left:0;
+}
+ul.menu-list > li {
+    background: none repeat scroll 0 0 #4c4c4c;
+    border-bottom: 1px solid #5e5e5e;
+}
+ul.menu-list li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    padding: 10px;
+    text-align: left;
+}
+ul.menu-list > li > ul > li > a:hover {
+    color: #fff;
+}
+ul.menu-list > li:hover {
+    background: none repeat scroll 0 0 #373636;
+}
+ul.menu-list li.has-submenu > a > span.menu-expand {
+    font-size: 0.7em;
+}
+ul.menu-list > li > ul > li {
+    background: none repeat scroll 0 0 #4b4b4b;
+    border-bottom: 1px solid #595858;
+}
+ul.menu-list > li > ul > li:last-child {
+    border-bottom: medium none;
+}
+ul.menu-list > li > ul > li:hover {
+    background: none repeat scroll 0 0 #5e5e5e;
+}
+ul.menu-list ul {
+    box-shadow: none;
+}
+ul.menu-list > li > ul > li > a {
+    color: #fff;
+}*/
+ul.menu-list > li:hover > a {
+    background: none repeat scroll 0 0 #373636;
+    /*color: #fff;*/
+}

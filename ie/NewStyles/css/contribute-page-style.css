@@ -1,0 +1,357 @@
+.featured-fluid-section {position: relative; padding: 0px; min-height: 250px; background: #f9f9f9;    float: left;    width: 100%;}
+	.featured-fluid-section .image-column {position: absolute; left: 0px; top: 0px; width: 50%; height: 100%; background-size: cover; /*background-position: center center;*/ background-repeat: no-repeat; float: right; }
+	.featured-fluid-section .text-column {float: right; background-size: cover; background-repeat: no-repeat; background-position: center center; } 
+	.featured-fluid-section .column {position: relative; display: block; float: right; width: 50%; }
+	.featured-fluid-section .dark-column:before {content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(25,25,25,0.9); }
+	.featured-fluid-section .dark-column .content-box {padding: 40px 15px 30px 50px; color: #a8a8a8; }
+	.featured-fluid-section .text-column .content-box {position: relative;/* max-width: 600px; */padding-left: 15px; }
+	.featured-fluid-section .dark-column h2 {font-size: 1.75vw !important; margin-bottom: 20px; font-weight: 600 !important; color: #ffffff; text-transform: uppercase; line-height: 1.2em; text-align: left !important; }
+	.theme_color {color: #02a451 !important; }
+	.featured-fluid-section .dark-column .title-text {position: relative; color: #ffffff; font-size: 18px; font-weight: 300; margin-bottom: 40px; padding-bottom: 15px; }
+	.featured-fluid-section .dark-column .text-contribute {    position: relative; color: #d5d5d5; font-size: 14px; margin-bottom: 6px; line-height: 28px; float: left;}
+	
+ .rdmore a{color: #02a451 !important;/* padding: 5px 10px !important; border: 1px solid #02a451 !important; background: rgba(2, 164, 81 , 0.2) !important;*/}
+.btn-contr-ma{margin: 0px 0 20px 0 !important}
+.ctxtfont{font-size: 16px}
+.OneStudnt{font-weight: 700 !important}
+.imgbg-full {
+    background-image: url(NewStyles/images/image_1.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: 0px 0px;
+   
+}
+
+.imgbg-full2 {
+    background-image: url(NewStyles/images/contribute-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: 0px -40px;
+   
+}
+.donation-section {float: left; width: 100%; margin-bottom: 50px; }
+.donation-section form {float: left; width: 100%; }
+.donation-section form ul {padding: 0; margin: 0 0 10px 0; list-style: none; overflow: hidden; }
+.donation-section form ul li {float: left; margin: 0 50px 0 0; position: relative; }
+.donation-section form ul li input.radio {width: 15px; height: 15px; border-radius: 100%; border: 1px solid #ccc; background: #fff; position: absolute; left: 0; right: 0; margin: auto;}
+.donation-section form ul li label {display: block !important; max-width: 100%; margin-bottom: 5px; font-weight: bold; } 
+input.radio+label>span.show {display: inline-block; }
+.donation-section form ul li span {border: 1px solid #999; clear: both; color: #666; font-size:20px;height: 58px; margin-top: 30px; position: relative; text-align: center; text-decoration: none; width: 68px;  line-height: 50px; cursor: pointer;}
+.donation-section form ul li span:before {background-color: #000; border-bottom: 1px solid #999; border-right: 1px solid #999; content: ""; height: 7px; left: 0; margin: auto; position: absolute; right: 0; top: -5px; transform: rotate(-135deg); -moz-transform: rotate(-135deg); -webkit-transform: rotate(-135deg); width: 7px;}
+span.show-hover {display: none; }
+.form-row {float: left; width: 100%; }
+.form-row label {font: 400 16px/16px; font-weight:100 !important; color: #333; display: block; text-transform: uppercase; padding: 0 0 15px 0; }
+.form-row input[type="text"] {float: left; width: 100%; border: 1px solid #ccc; height: 45px; box-shadow: 0 0 5px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1); box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font: 400 14px 'Open Sans',sans-serif; color: #777; padding: 0 20px; margin-bottom: 28px;}
+.form-row input[type="submit"] {float: left; width: 100%; height: 45px; border: 0; padding: 0; font: 400 16px 'Montserrat',sans-serif; color: #fff; margin: 36px 0 0 0; border: 2px solid rgba(0,0,0,0); background-color: #43a047  }
+.donation-section form textarea {float: left; width: 100%; height: 45px; resize: none; padding: 6px 15px; border: 1px solid #ccc; box-shadow: 0 0 5px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1); box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font: 400 14px 'Open Sans',sans-serif; color: #777; margin-bottom: 30px; line-height:30px }
+/*.heading-left:before {content: ''; position: absolute; left: 15px; bottom: 0; background: url(NewStyles/images/heading-left-line-1.png) no-repeat left bottom; width: 109px; height: 7px; }*/
+.donr-info{font-size: 20px !important; font-weight: 400 !important; margin-bottom: 10px !important}
+
+.donation-section form input[type="email"] {float: left; width: 100%; height: 45px; padding: 0 15px; border: 1px solid #ccc; box-shadow: 0 0 5px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1); -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1); box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; font: 400 14px 'Open Sans',sans-serif; color: #777; margin-bottom: 30px; }
+.donrinfo-outr{margin-bottom: 20px}
+.priceUl{float: left;}
+.radioChkpay{float: left; padding:24px 15px}
+.chklbl{float: left;}
+.donateBtn{float: left !important; width: 135px !important}
+.secalign p{padding:0 30px}
+input.make-a-Pledge{margin-left: 10px !important; background-color: #fff !important; color:  #02a451 !important; border:1px solid #02a451 !important;}
+
+/*Banner Section*/
+._wrapper .progress{overflow: inherit !important;}
+
+.banner{background-image: url(NewStyles/images/honor-banner-nw.jpg);background-repeat:no-repeat;height: 660px;overflow: hidden;width: 100%;float: left;background-size: cover; 
+display: block;  background-position:124px -61px !important}
+.banner-data h2{text-align:left !important}
+.banner .banner-data{float: left;top:100px;}
+ .banner .banner-data span{color:#02a451;}
+.btn-theme-colored {background-color: #02a451; border-color: #6ab43e; color: #fff;float: left; border-radius: 0 !important;  padding: 12px 20px !important}
+.btn-theme-colored:hover{color: #fff !important; box-shadow: 0 0 10px #d9d9d9}
+.mt-20{margin-top: 20px;} 
+
+.banner .banner-data p{float: left;color: #000; font-family: "Open Sans",sans-serif; font-size: 15px; line-height: 30px; margin: 0 0 20px; padding: 0; text-align: left; }
+
+.progress-line {
+   height: 1px;
+   width: 100%;
+   background-color: #f37021 ;
+   float: left;
+   line-height: 20px;
+   margin: 15px 0;
+}
+ .holder {
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+/*    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);*/
+
+        border: 1px solid #eee;
+    float: left;
+
+}
+.pmain{padding: 30px 10}
+.do-im{width: 45px !important}
+.p0{padding: 0 !important}
+.plzero{padding-left: 0 !important}
+.title-pay{    font-size: 16px;
+    margin-left: -14px;}
+    .paymnt-impaypal img{padding: 3px 25px 2px 6px !important }
+    .other-Amount{    width: 347px !important;
+    margin-top: 10px;}
+
+    .newsletter {
+    float: left;
+    /*width: 100%;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.newsletter .holder {
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding:0;
+}
+.banner .banner-data h2 {
+    float: left;
+    font-size: 1.45vw !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+.imgpay{padding:12px 0 !important}
+.imgpay img{padding: 0px 17px !important}
+.pay450{line-height: 39px !important;   font-size: 14px !important; padding:12px 0px 0px !important; margin-bottom:0 !important}
+.clear10new{width: 100%; float: left; height: 10px}
+.paybt{float:left; padding:0 !important}
+.dnt100dlrhover {
+    margin: 25px 0 0 0;
+    padding: 15px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc; width: 100%
+}
+	.amount{background-color: #02a451 !important; color:  #fff !important}
+	.clear30{width: 100%; float: left; height: 30px}
+	.gnewcolor{background-color:#fff !important}
+	.plg{margin-left:10px !important}
+	.help-block {
+    bottom: 1px;
+    color: red;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+
+
+.btn-new-contribut{padding: 7px 15px 7px 0 !important; border:1px solid #02a451 !important; color: #02a451;
+ font-size: 17px !important; margin-right: 45px}
+.btn-new-contribut:hover{background-color: #02a451; color: #fff}
+.btn-actv{background-color: #02a451; color:#fff}
+.imgvc{    width: 70px;
+    background-color: #fff;
+    margin-left: -10px;
+    /* padding-right: 0px; */
+    border-radius: 50%;
+}
+.btnextrapadding{padding:8px 47px 8px 0 !important; text-align:center !important}
+
+.dollar_selection ul li a:hover{color:#fff}
+.help-block{color:red;}
+
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px
+}
+.progress-heading h2 {
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+#clockdiv > div {
+
+padding: 10px;
+
+border-radius: 3px;
+
+background: #747474
+
+;
+
+display: inline-block;
+
+}
+
+#clockdiv div > span {
+
+padding: 11px;
+
+border-radius: 3px;
+
+background: #E1E1E1
+
+;
+
+display: inline-block;
+
+color: #43A047
+
+;
+
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.suport_schol{font-size: 21px !important;}
+.othAmount{float:left; padding:0}
+
+.show_small_dvCon{font-size: 42px !important;
+    border-radius: 10px;
+    background: rgba(241, 240, 240, 0.1);
+    color: #02a451;
+    padding: 9px 37px;}
+.modal-backdrop.in{opacity:0 !important;}
+.modal-headerCustom {
+    background-color: #02a451 !important;
+    color: #fff !important;
+    padding: 0 !important;
+}
+.modal-header .closeCustom {
+    background-color: #008f2d !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    margin-top: 0 !important;
+    padding: 8px 16px !important;
+}
+
+
+
+/* WISDOM FOR MOBILE */
+@media(min-width:220px) and (max-width:700px){
+	
+.form-row input[type="text"] {width: 49% !important; height: 36px  !important; padding: 0 5px  !important; margin-bottom: 10px  !important;
+ margin-right: 1%; border-top: 0 !important; border-left: 0 !important;
+    border-right: 0 !important; font-size: 11px; box-shadow: none;}
+    #otherAmount{width:100% !important}
+.dollar_selection ul li a {font-size: 15px;min-width: 65px; margin-top: 10px;  line-height: 31px; border-radius: 100% !important;}
+.dollar_selection ul li { margin: 2px !important;}
+.dnttxtsec {padding: 0;}
+.dnttxtsec p{margin:0 !important}
+.dntimgsec{width:60px}
+.dntimgsec img{width:50px !important}
+.donation-section form ul li input.radio {display:none}
+.donation-section form ul li span:before{display:none}
+.get_program_school.no_gaptp{padding:0 !important}
+ .radioChkpay label{padding: 0px 4px 10px 0px !important;font-size: 12px !important;line-height: 22px !important;}
+.newsletter  p{font-size:11px !important; text-align:center !important}
+.pay450{padding:2px 0px 0px !important}
+.imgpay img { padding: 2px 0px !important;width: 40px !important;}
+.form-row input[type="submit"]{margin:0 !important}
+#result{padding:0 !important}
+/* .dnt100dlr{display:none} */
+.hide_smalll{display:none}
+.pay_outrdi{float:left !important; text-align:center; width:100%}
+.pay_outrdi .donateBtn{float:none !important;}
+.donr-info{text-align:center}
+.secalign p{padding-top:10px !important}
+.imgpay img{width:70px !important}
+.paybt{width:100% !important; text-align:center}
+.paybt .donateBtn{float:none !important}
+.btn-new-contribut{magin-right:12px !important}
+}
+
+
+
+ @media(min-width:220px) and (max-width:400px){
+.videobtn {
+    margin: 3px 0 15px 8px;
+}
+}
+
+ @media(min-width:410px) and (max-width:600px){
+ .videobtn {
+    margin: 20px 0 30px 35px;
+}
+.pinpoint-txt .sch-contri{    top: -35px;}
+.progress-heading h2 {    font-size: 17px !important;}
+.imgpay{    padding: 2px 2px 4px !important;}
+.imgpay img {padding: 0px 6px !important;}
+.donateBtn {float: left !important; width: 138px !important;}
+}
+
+ @media(min-width:630px) and (max-width:660px){
+.btn-new-contribut {margin-right: 33px !important;}
+}
+
+ @media(min-width:750px) and (max-width:770px){
+.banner1 .banner-data1 {float: left;padding: 17px 2px !important; position: absolute !important; top: 10%;
+    width: 100% !important; z-index: 99999 !important;}
+.banner1 .banner-data1 p {font-size: 16px !important; line-height: 17px !important;}
+.btn-new-contribut {margin-right: 10px !important; font-size: 12px !important;}
+}
+@media(min-width:220px) and (max-width:650px){
+.other-Amount {width: 300px !important;margin-top: 10px; margin-bottom:5px !important;}
+.radioChkpay {float: left;padding: 3px 8px;}
+.imgpay{padding:0 !important}
+.imgpay img {padding: 2px 15px !important;}
+.progress-heading h2 {font-size: 12px !important;}
+.dnttxtsec p {font-size: 12px; margin: 14px 0 0 0;}
+.donateBtn {float: left !important;width: 133px !important;}
+.des_dtl{margin:0 !important}
+#clockdiv div > span{font-size:11px !important}
+.form-row label{padding: 0px 0 15px 5px;}
+.banner1 .banner-data1{width: 100% !important;}
+.imgvc { width: 40px;}
+.btn-new-contribut {margin-right: 5px !important; padding: 7px 7px 7px 0 !important;     font-size: 10px !important;}
+.paybt input{margin-top:0 !important}
+.banner1 .banner-data1 h2 {
+    font-size: 80px !important;
+    margin-top: 75px;
+}
+.banner1 .banner-data1 span {
+    font-size: 68px !important;
+}
+}
+@media(min-width:410px) and (max-width:450px){
+	.btn-new-contribut {
+    margin-right: 38px !important;
+	}
+}
+@media(min-width:760px){
+	.show_small_dvCon{display:none}
+}
+@media(min-width:730px) and (max-width:740px){
+	.btn-new-contribut{font-size: 14px !important;}
+	.banner1 .banner-data1 h2 { font-size: 50px !important; margin-top: 100px;}
+.banner1 .banner-data1 span {font-size: 50px !important;}
+}
+@media(min-width:665px) and (max-width:680px){
+.banner1 .banner-data1 h2 { font-size: 70px !important; margin-top: 100px;}
+.banner1 .banner-data1 span {font-size: 61px !important;}
+}
+@media(min-width:220px) and (max-width:450px){
+.imgvc {width: 44px !important;}
+}
+}
+
+

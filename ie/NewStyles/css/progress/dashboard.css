@@ -1,0 +1,43 @@
+
+.img_full_get_event{width: 100%; background:url(../../images/progress/dashboard1.jpg); background-repeat:no-repeat center center fixed; 
+
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; }
+
+.dashboard_body{width: 100%; float: left; padding: 40px 0; background: #f9f9f9}
+.img_full_get_event1{width: 100%; background:url(../../images/progress/dashboard1.jpg); background-repeat:no-repeat center center fixed; 
+
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; }
+.bs-wizard {margin-top: 0px;}
+.highcharts-contextbutton{display: none;}
+/*Form Wizard*/
+.days_txt span{line-height: 50px}
+.bs-wizard { padding: 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; 
+	background: #ffd966; top: 20px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;
+	 box-shadow: 0 0 20px 4px #fbbd19} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #e9c65d; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 4px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #767171;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+.green-star{color:#6eb141 !important; font-size: 35px; margin-top: 10px }
+.yellow-star{color:#fdc500 !important; font-size: 35px; margin-top: 10px }
+
+.white_colo{background: transparent; color: #ffffff}
+/*END Form Wizard*/
+
+
+/*healheal*/
+
+.dashboard_hh{width: 100%; float: left; padding: 40px 0; background: #f9f9f9}

@@ -1,0 +1,8 @@
+.multi-input{ background:#fff; border:1px solid #ccc; padding:5px 10px;}
+
+.multi-input .tokenfield.focus{box-shadow:none !important;}
+
+.multi-input .tokenfield .token-input{ margin-top:5px;}
+
+.multi-input .tokenfield .token-input:focus{ box-shadow:none !important;}
+#header{/* z-index: 999; */}

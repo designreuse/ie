@@ -1,0 +1,97 @@
+/* Bare minimum styles */
+.slider {
+    -ms-touch-action: pan-y; /* Prevent default touch actions on Windows 8. Only required for IE10 */
+    overflow: auto; /* Not required but recommended for accessibility when JavaScript is turned off */
+    position: relative;
+    touch-action: pan-y; /* Prevent default touch actions on Windows 8. Supported in IE11+ */
+}
+
+/* AnySlider can be styled to your liking. This is just example styles */
+.slider {
+    height: 520px;
+      margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* The arrows can of course also be styled to your liking. This is just example styles */
+.as-prev-arrow, .as-next-arrow {
+    background: url(../images/arrows.png) no-repeat;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    height: 50px;
+    overflow: hidden; display:none;
+    position: absolute;
+    text-indent: 100%;
+    top: 45%;
+    white-space: nowrap;
+    width: 55px;
+    z-index: 5;
+    	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+}
+
+.as-prev-arrow {
+    left: 0;
+}
+
+.as-prev-arrow:hover{
+  
+  background-position: 0 -50px;
+   
+  }
+
+.as-next-arrow {
+    background-position: -55px 0;
+    right: 0;
+}
+
+.as-next-arrow:hover {
+    background-position: -55px -50px;
+    right: 0;
+}
+
+
+
+.slider:hover .as-prev-arrow, .slider:hover .as-next-arrow {
+    filter: alpha(opacity=1);
+    opacity: 1;
+    
+     
+}
+
+/* The same rules for styling apply here. Style to your liking */
+.as-nav {
+    bottom: 10px;
+    left: 0;
+	right:0;
+    margin:0 auto;
+    position: absolute;
+    text-align:center;
+    width: 250px;
+    z-index: 1; 
+}
+
+.as-nav a {
+    background: url(../images/bullets.png) no-repeat;
+    height: 14px;
+    display: inline-block;
+    margin: 0 5px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap; 
+    width: 14px;
+}
+
+a.as-active, .as-nav a:hover {
+    background-position: 0 -14px;
+}
+
+
+.slider-wrapper {
+    height: 520px;
+    position: relative;
+}

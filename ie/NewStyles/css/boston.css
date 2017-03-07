@@ -1,0 +1,321 @@
+   .btn-topgrn-boston{    padding: 10px 16px;
+    color: #02a451;
+    text-decoration: none;
+    margin-left: -7px;
+    font-size: 16px;
+    float: left;
+    margin-top: 14px;
+    border: 1px solid #02a451;
+    border-left: 0; min-width: 200px;     text-transform: uppercase;}
+       .btn-topgrn-boston:hover{background-color: #02a451; color: #fff; text-decoration: none}
+    .boston-btn-actv{background-color: #02a451; color: #fff}
+    .imgbtn-topgrn-boston{width: 70px; float: left;}
+    .topBtn-outBoston{ float: left; text-align: center; margin-bottom: 10px}
+    .banner-sec-boston{float: left; width: 100%; padding: 60px 0}
+    .boston_banner{float: left; width: 100%; border:1px solid #02a451; margin-bottom: 20px}
+    .textarea-div{width: 100%; float: left; margin-bottom: 20px}
+    .earn_btn{background-color: #02a451; text-decoration: none; text-transform: uppercase; color: #fff; padding: 10px 25px;     font-size: 20px; width: 100%; float: left;}
+    .earn_btn:hover, .bostonB1:focus, .bostonB2:focus, .bostonB3:focus{text-decoration: none; color: #fff}
+    .questionarea {float: left; width: 100%; padding:0px; margin-bottom: 5px}
+    .questiondiv{float: left; width: 100%; text-align: center;}
+    .questiondiv span{font-size: 25px ;    color: #69696E !important;}
+    .textareaBox{float: left; width: 100%;}
+    .textareaBox textarea{border-radius: 0 !important; box-shadow: 0 0 2px #f9f9f9; height: auto !important;}
+    .questiondivDesc{float: left; width: 100%; padding: 15px 0 5px}
+    .questiondivDesc p {font-size: 15px; float: left; text-align: left; width: 100%;     color: #69696E !important;}
+    .button-submit-boston {    background: #02a451 none repeat scroll 0 0; border: medium none; border-radius: 2px; color: #fff; cursor: pointer; display: inline-block; font-size: 15px; font-weight: 400; padding: 10px 25px; text-transform: uppercase; transition: all 0.4s ease-in-out 0s; margin-top: 15px}
+    .radioCuston{padding: 20px 0 !important;font-size: 15px !important;}
+    .radioCuston label{    font-size: 15px !important;
+    line-height: 21px !important;}
+    .formoutr-boston{float: left; width: 100%; padding: 25px; border: 1px solid #d9d9d9}
+    .formoutr-boston .form-group .control-label{text-align: left !important; float: left; font-weight: 600 !important}
+    .banner-sec-boston .col-md-12{width: 100%}
+    .p0{padding: 0 !important}
+    #btn-click-two{min-height: 650px}
+    #btn-click-three11{min-height: 530px}
+
+
+/*Slider*/
+.sl-ou{margin-bottom: 8px;width: 100%; text-align: center; float: left;}
+.sl-ou p{    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 5px;}
+.ui-widget-content {
+    border: 3px solid #bdc3c7;
+    background: #e1e1e1;
+    color: #222222;
+    margin-top: 1px; cursor: pointer;
+}
+
+.ui-corner-all{cursor: pointer !important;}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    height: 2.2em;
+    cursor: default;
+    margin: 0 -40px auto !important;
+    text-align: center; 
+    line-height: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.ui-slider .ui-slider-handle .glyphicon {
+    color: #FFFFFF;
+    margin: 0 3px; 
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.ui-corner-all {
+    border-radius: 20px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.9em;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+    border: 1px solid #f9f9f9;
+    background: #02a451;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    margin-left: -0.5em;
+}
+
+.ui-slider .ui-slider-handle {
+    cursor: pointer;
+}
+
+.ui-slider a,
+.ui-slider a:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+.price, .lead p {
+        font-weight: 100;
+    font-size: 21px !important;
+    display: inline-block;
+    line-height: 60px;
+}
+
+h4.great {
+    background: #00ac98;
+    margin: 0 0 25px -60px;
+    padding: 7px 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: inline-block;
+    -moz-box-shadow:    2px 4px 5px 0 #ccc;
+    -webkit-box-shadow: 2px 4px 5px 0 #ccc;
+    box-shadow:         2px 4px 5px 0 #ccc;
+}
+
+.total {
+    border-bottom: 1px solid #7f8c8d;
+    /*display: inline;
+    padding: 10px 5px;*/
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.total:before {
+    content: "";
+    display: inline;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 3px;
+    background: #7f8c8d;
+    opacity: 0.5;
+}
+
+.price-slider {
+    margin-bottom: 1px;
+}
+
+.price-slider span {
+    font-weight: 200;
+    display: inline-block;
+    color: #7f8c8d;
+    font-size: 13px; 
+}
+
+.form-pricing {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.price-form {
+    background: #ffffff;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    /*-moz-box-shadow:    0 5px 5px 0 #ccc;
+    -webkit-box-shadow: 0 5px 5px 0 #ccc;
+    box-shadow:         0 5px 5px 0 #ccc;*/
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-group span.price {
+    font-weight: 200;
+    display: inline-block;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.help-text {
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    color: #737373;
+    position: absolute;
+    /*margin-left: 20px;*/
+    font-weight: 200;
+    text-align: right;
+    width: 188px;
+}
+
+.price-form label {
+    font-weight: 200;
+    font-size: 21px;
+}
+
+img.payment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.ui-slider-range-min {
+    background: #2980b9;
+}
+
+.bostonSocial-facebook{    width: 95px;
+    margin-top: -2px;
+    border-radius: 6px; float:left}
+.socialBoston iframe{float:left !important; margin-left:20px !important; height:50px !important; width:90px !important; margin-top:0 !important}
+.socialBoston iframe #widget{width:160px !important} 
+.socialOutertBoston{padding:25px 66px 2px !important}
+.colr{color: #69696E !important;}
+.mT30{margin-top:30px}
+.colr{    margin-bottom: 10px;
+    float: left;
+    width: 100%;}
+    .flotI{float:left !important; width:100%}
+
+/* HR */
+
+@media (min-width: 220px) and (max-width:700 ){
+ img.imgbtn-topgrn-boston {width: 50px !important; float: left; }
+ .btn-topgrn-boston {padding: 10px 16px; color: #02a451; text-decoration: none; margin-left: -8px;
+  font-size: 11px !important; float: left; margin-top: 7px; border: 1px solid #02a451; border-left: 0; }
+}
+@media (min-width: 220px) and (max-width:330px){
+
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {border: 1px solid #02a451; padding: 7px 1px; margin-left: 0px; font-size: 13px; min-width: 96px;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 350px) and (max-width:370px){
+
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {border: 1px solid #02a451; padding: 7px; margin-left: 0px; font-size: 13px; min-width: 96px;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 550px) and (max-width:570px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {font-size: 12px;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 650px) and (max-width:670px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {font-size: 12px;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+
+@media (min-width: 375px) and (max-width:385px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left: -7px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; border-left: 0;  min-width: 120px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 410px) and (max-width:450px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left:5px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; border-left: 0;  min-width: 120px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 736px) and (max-width:780px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left: -7px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; border-left: 0;  min-width: 200px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 635px) and (max-width:670px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left: -7px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; border-left: 0;  min-width: 200px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+@media (min-width: 730px) and (max-width:734px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left: -7px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; border-left: 0;  min-width: 240px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+@media (min-width: 599px) and (max-width:605px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left: -7px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; border-left: 0;  min-width: 200px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 799px) and (max-width:810px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left: -7px;
+    font-size: 15px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451;   min-width: 260px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 530px) and (max-width:550px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left:5px;
+    font-size: 20px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451;   min-width: 165px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}
+
+@media (min-width: 478px) and (max-width:482px){
+img.imgbtn-topgrn-boston{display:none !important}
+.btn-topgrn-boston {padding: 15px 12px; text-decoration: none; margin-left:5px;
+    font-size: 19px !important; float: left;margin-top: 38px;
+    border: 1px solid #02a451; min-width: 120px; text-transform: uppercase;}
+.pracProgress_hdr h2{font-size:20px !important}
+}

@@ -1,0 +1,133 @@
+.mailBox{bottom:18% !important}
+.error{ color: #ff0000 !important;
+    font-size: 12px !important;}
+    
+ .modal_header_cus{padding:0 10px !important; }
+ .modal_header_cus .modal-title{font-size:18px !important; line-height: 36px !important;}   
+.trial_popup{cursor:pointer}
+.bannerulnew li{  font-size: 16px !important;
+    line-height: 25px;}
+.ext-center{padding: 3px 10px 0px !important;}    
+   .ext-center .modal-title { 
+    font-size: 17px !important;
+    line-height: 34px !important;
+}
+   .home_act_btn_1{ color: #333 !important;
+    float: left !important;
+    margin-left: 38% !important;
+   }
+   
+   .nxt_page_btn{background-color: transparent !important;
+	border: 1px solid #02a451 !important;
+	border-radius: 2px !important;
+	/* float: left !important; */
+	margin-left: 10px !important;
+	padding: 5px 17px !important;
+	font-size: 17px !important;
+	height: 35px !important;
+	margin-top: -6px !important;
+	line-height: 20px !important}
+    
+.bannerulnew {
+    font-weight: 300 !important;
+    list-style: outside none none;
+    margin-top: 20px;
+    padding-left: 0 !important;
+    text-align: left;text-transform:none !important
+}
+.new_bottom_sub_line{
+    float: left;
+    font-size: 15px !important;
+    font-weight: 100 !important;}
+    .testimonial_scroll_outer{width:100%; float:left; max-height:400px; overflow-y:auto}
+	.t_box{border:1px solid #d9d9d9; margin-bottom:4px}
+	.t_box p{font-size: 13px  !important;
+    padding: 10px !important; margin-bottom:-4px !important}
+    .closeCustom{width:auto !important; float:right !important}
+    .navbar{box-shadow:none !important}
+    .iframe-Video {
+    border-radius: 3px;
+    height: 252px  !important;
+    left: 15%  !important;
+    padding: 1px;
+    position: absolute;
+    top: 17px  !important;
+    width: 70% !important;  
+}
+.trial_popup{   background-color: transparent !important;
+    border: 1px solid #02a451 !important;
+    border-radius: 2px !important;
+    height: 35px !important;
+    line-height: 20px !important;
+    margin-left: 10px !important;
+    margin-top: -6px !important;
+    padding: 5px 17px !important;
+    color:#fff !important;font-size:17px !important;
+}
+.trial_popup:hover, .hovr_co input:hover{background-color:#02a451 !important}
+.home_act_btn_1{color:#333 !important;
+	border: 1px solid #02a451 !important;
+	border-radius: 2px !important;
+	padding: 5px 17px !important;
+	line-height: 20px !important}
+	
+	.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cus_clo{
+    background-color: transparent !important;
+    border: 1px solid #02a451 !important;
+    border-radius: 2px !important;
+    font-size: 13px !important;
+    height: 30px !important;
+    padding: 12px 17px 28px !important;
+    margin-top: 0 !important;
+}
+.modal-footer_cus{border:none !important}
+
+
+@media(min-width:220px) and (max-width:767px){
+	.benefit-outer-main{margin-top: 65px;}
+	.sameFontie h2{font-size:16px}
+	.icon-box-new1{width:84px}
+	.icon-box-new1 img{width:60px !importnat}
+	.sameFontiep{font-size:13px !important; padding:0 14px}
+	.iframe-Video{height:160px !important}
+	img.displayed{height:225px !important}
+	#teacher-register .form-control{width:100% !important}
+	.benefit-outer-main .col-lg-4 h2{font-size:15px !important}
+	.testimonailbottomtx{min-height:auto !important; line-height:20px !important}
+	.videotestimon{padding:8px 0 !important}
+	.carousel-caption {width: 100%;  text-align: center;}
+	.carousel-caption.captwo h1 { text-align: center; margin-top:10%}
+	
+	.trial_popup {height: 35px !important; line-height: 5px !important; padding: 17px 17px !important;
+    color: #fff !important;  font-size: 60px !important;}
+    .nxt_page_btn{line-height: 5px !important; padding: 60px 17px !important;
+    color: #fff !important;  font-size: 60px !important;}
+   .lhEmail .form-control {font-size: 50px !important;font-weight: 500 !important;}
+   .mailBox { left: 15% !important; width: 70% !important;}
+   .mailBox .form-control{width:100% !important}
+   .benefit-outer-main{padding:10px 0 !important}
+   .hidden-md.hidden-lg p{padding:0; line-height:18px}
+   #freeTrial .form-control{font-size:20px !important}
+}
+@media(min-width:768px) and (max-width:810px){
+	.lhEmail .form-control{margin-left:24% !important}
+	.mailBox{bottom:25% !important}
+}
+ 
